@@ -15,11 +15,12 @@ sections:
 - type: heading
   label: I dunno
 - type: directory
-  path: content/blog-posts
-  label: Blog posts
+  path: content/comics
+  label: Comics
   create: all
   match: "**/*"
   templates:
+  - blog
   - blog
 - type: document
   path: content/data/authors.yaml
