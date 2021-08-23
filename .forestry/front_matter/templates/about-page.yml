@@ -17,12 +17,6 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: github_handle
-    type: text
-    config:
-      required: false
-    label: Github Handle
-    description: Enter github handle here
   - name: email
     type: text
     config:
